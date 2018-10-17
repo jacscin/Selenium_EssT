@@ -12,8 +12,8 @@ public class SauceLabsExample {
     public static void main(String[] args) throws Exception {
 
         DesiredCapabilities caps = DesiredCapabilities.chrome();
-        caps.setCapability("platform", "macOS 10.12");
-        caps.setCapability("version", "66.0");
+        caps.setCapability("platform", "windows 10");
+        caps.setCapability("version", "1803");
 
         WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 
